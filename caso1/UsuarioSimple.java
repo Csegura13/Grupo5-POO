@@ -14,13 +14,13 @@ public class UsuarioSimple {
         System.out.print("Ingrese su edad: ");
         int edad = entrada.nextInt();
 
-        System.out.print("Ingrese su estatura (en metros): ");
+        System.out.print("Ingrese su estatura (en centimetros): ");
         double estatura = entrada.nextDouble();
 
         System.out.println("\n--- Datos Ingresados ---");
         System.out.println("Nombre: " + nombre);
         System.out.println("Edad: " + edad + " años");
-        System.out.println("Estatura: " + estatura + " m");
+        System.out.println("Estatura: " + estatura + " cm");
 
         entrada.close();
     }
