@@ -23,7 +23,7 @@ public class EstudianteInteractivo {
 
         // Validar que el DNI tenga exactamente 8 dígitos numéricos
         while (!dni.matches("\\d{8}")) {
-        System.out.println("DNI inválido. Debe contener exactamente 8 dígitos numéricos.");
+        System.out.println("DNI inválido. Debe contener exactamente 8 dígitos.");
         System.out.print("Ingrese el DNI del estudiante: ");
         dni = sc.nextLine();
         }
