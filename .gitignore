@@ -1,0 +1,34 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Sistema
+Thumbs.db
+.DS_Store
+
+# Bases de datos locales
+*.db
+
+# Otros
+*.tmp
+*.bak
+*.swp
+*.swo
